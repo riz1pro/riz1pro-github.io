@@ -311,7 +311,7 @@ form {
 
 /* Slideshow section / container */
 #Slideshow_Container {
-    width: 39.5vw; /* Relative sizing of the container for the slidewshow set to 39.5% of the viewport width */
+    width: 30.5vw; /* Relative sizing of the container for the slidewshow set to 39.5% of the viewport width */
     height: 10%; /* The height of the container is automatically adjusted based on the content it is displaying */
     padding-top: 4%; /* Adds a small padding to the top of the slideshow container */
     position: relative; /* This sets the container relative to its normal positioning */
@@ -325,10 +325,15 @@ form {
 
 /* Images contained within the slideshow */
 .Slideshow_Images {
+    
     vertical-align: middle; /* This centers the images vertically within the slideshow container */
     height: 10%; /* The height of the images is automatically adjusted based on the content, ie if your images are different sizes, they will display as different sizes */
     box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .75); /* Adds a shadow around the slideshow images */
     width: 100%; /* The width of the images is automatically adjusted based on the content */
+    
+  
+  height: 450px;
+  
 }
 
 /* Next and previous buttons */
@@ -368,10 +373,14 @@ form {
     text-align: center; /* The text is center aligned within the image */
     font-family: Perpetua, Rockwell Extra Bold;
     letter-spacing: .1vw; /* This gives slight spacing between the letters */
-    font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
+    font-size: 1.3vw; /* Font size is relative to the size of the viewport width */
+    
     background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
+    
     font-weight: bold;
+    
     border-radius: 0px 0px 7px 7px; /* Gives the text background rounded corners on the bottom left and right corners */
+   
 }
 
 /* Styling of the dots under the slideshow */
